@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="us-eng">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -9,20 +9,18 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div id="name">
-                <p>Valerie Susnick</p>
-            </div>
-            <ul id="links">
-                <li><a href="index.html">About</a></li> |
-                <li><a href="portfolio.html">Portfolio</a> |</li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header id="masthead">
+        <div class="container">
+            <p>Valerie Susnick</p>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-<br>
     
+    <div id="main-container" class="container">
     <section class="pagesection">
         <div>
             <H1>Contact</H1>
@@ -39,9 +37,13 @@
             <button>Submit</button>
         </form>
     </section>
-    <br>
+    </div>
 
-    <footer>Copyright &copy;</footer>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>
