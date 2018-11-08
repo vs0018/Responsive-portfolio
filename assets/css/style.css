@@ -53,6 +53,8 @@ h3 {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
+    top: 0;
+    left: 0;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -206,14 +208,33 @@ input[type=submit] {
 
 /* Start of media queries for responsive design */
 
-@media only screen and (max-width: 980px) {...
+@media only screen and (max-width: 980px) {
+    body {
+        font-size: 16px;
+    }
+
+    .pagesection {
+        width: 80%;
+    }
+
+    .headshot {
+        width: 150px;
+    }
 }
 
-@media only screen and (max-width: 768px) {...
+@media only screen and (max-width: 768px) {
+    .pagesection {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-    header {
-        position: fixed;
+    #masthead {
+        position: static;
+    }
+
+    .headshot {
+        width: 100%;
+        height: auto;
     }
 }
