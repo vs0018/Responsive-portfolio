@@ -222,6 +222,10 @@ input[type=submit] {
     }
 }
 
+/*Still need to figure out positioning of nav bar elements with smaller break points */
+
+/*Also think I need to fix overflow of elements in nav bar - getting a scroll bar on smaller screens and name won't fit*/
+
 @media only screen and (max-width: 768px) {
     .pagesection {
         width: 100%;
